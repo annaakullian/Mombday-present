@@ -1,6 +1,8 @@
 <html>
 	<head>
-		<link href = "static/css/mombday.css" rel = "stylesheet"/>
+		<link href = "../static/css/mombday.css" rel = "stylesheet"/>
+		<link href = 
+
 		<style>
 			body {font-family: sans-serif;}
 		</style>
@@ -10,16 +12,30 @@
 			
 			<h1>HAPPY BIRTHDAY MOMMY!!</h1>
 
-			<h2><strong><font color="#FF0066">I LOVE YOU SO MUCH!</font></strong>
+			<h2><strong>I LOVE YOU SO MUCH!</strong>
 			<p><font color="#4747FF">For your birthday, I created this web page. Its for you!! How it works, is you can enter a date from 1990 until 2014, and a memory I have with you will show up! I have so many great memories, and I am so excited to create so many more! Thanks for being such a wonderful mommy! </font></p>
 
 			<form action="/memory">
 			<label for="year"><font color="#FF3300">Here you can type any year between 1990 and 2014, and then press that submit botton</font></label>
 			<input type="text" name="year" />
 			<input type="submit">
+			<!-- <input id="..." type="button" value="Get With AJAX"> -->
 			</form>
-			<img src="../static/img/momme.jpg" alt="some text" width=2048 height=1536></img>
+
+			<!-- <div id="memory-goes-here"></div> -->
+
+			<img src="../static/img/1990.jpg" alt="some text" width=720 height=540></img>
 			
+            <!--<script src="jquery"></script>
+			<script>
+				// bind the ajax button to "click" event handler
+				// in that handler:
+				//    make an ajax .get request to /memory-ajax
+				//  put that in memory-goes-here 
+				// using jquery "load" method
+
+			</script>
+			-->
 		</body>
 </html>
 
